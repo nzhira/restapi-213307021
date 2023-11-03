@@ -1,0 +1,67 @@
+{
+	"info": {
+		"_postman_id": "194c2c2e-9410-495c-976b-dad24eb2a4ff",
+		"name": "restapi-213307021",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30924635"
+	},
+	"item": [
+		{
+			"name": "localhost/restapi-213307021/api-karyawan.php?function=getKaryawan",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "nama",
+							"value": "Nazhira",
+							"type": "text"
+						},
+						{
+							"key": "jenis_kelamin",
+							"value": "Perempuan",
+							"type": "text"
+						},
+						{
+							"key": "handphone",
+							"value": "081554787242",
+							"type": "text"
+						},
+						{
+							"key": "alamat",
+							"value": "Madiun",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost/restapi-213307021/api-karyawan.php?function=getKaryawan",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"restapi-213307021",
+						"api-karyawan.php"
+					],
+					"query": [
+						{
+							"key": "function",
+							"value": "getKaryawan"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
